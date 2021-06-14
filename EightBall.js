@@ -13,27 +13,29 @@ let randomNumber = Math.floor(Math.random() * 8);
 
 switch(randomNumber) {
      case 0: 
-         console.log('Yes!');
+         eightBall = 'Yes!';
          break;
      case 1: 
-         console.log('No!');
+         eightBall = 'No!';
          break;
      case 2: 
-         console.log(`I don't know!`);
+         eightBall = 'I do not know !';
          break;
      case 3: 
-         console.log(`She is Software Engineer in Amazon!`);
+         eightBall = 'She is Software Engineer in Amazon!';
          break;
       case 4: 
-         console.log(`No.She is Project Manager!`);
+         eightBall = 'No.She is Project Manager!';
          break;
       case 5:
-         console.log(`No.She is DevOp!`);
+         eightBall = 'No.She is DevOp!';
          break;
       case 6:
-         console.log(`No.She is Leader!`);
+         eightBall = 'No.She is Leader!';
          break;
       case 7:
-         console.log(`No.She is Tester!`);
+         eightBall = 'No.She is Tester!';
          break;            
 }
+
+console.log(eightBall);
