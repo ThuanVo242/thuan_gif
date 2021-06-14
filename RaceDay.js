@@ -1,4 +1,4 @@
-let age = Math.floor(Math.random() * 15) + 16;
+let age = Math.floor(Math.random() * 30) + 16;
 let registerNumber = Math.floor(Math.random() * 2000);
 
 if(age >= 18 && registerNumber <= 1000) {
