@@ -1,8 +1,8 @@
 let raceNumber = Math.floor(Math.random() * 1000);
 let status = 'soon';
-let age = 15;
+let age = 30;
 
-if (age === 20 && status === soon) {
+if (age > 18 && status === 'soon') {
     raceNumber += 1000;
 }
 
