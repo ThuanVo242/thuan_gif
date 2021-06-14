@@ -1,19 +1,17 @@
-let age = Math.floor(Math.random() * 30) + 16;
-let registerNumber = Math.floor(Math.random() * 2000);
+let raceNumber = Math.floor(Math.random() * 1000);
+let status = false;
+let age = 20;
 
-if(age >= 18 && registerNumber <= 1000) {
-    console.log(`Age : ${age}`);
-    console.log(`Register Number : ${registerNumber}`);
-    console.log(`Race start 9.30 AM`);
-} else if(age >= 18 || registerNumber <= 1000) {
-    console.log(`Age : ${age}`);
-    console.log(`Register Number : ${registerNumber}`);
-    console.log(`Race start 11.30 AM`);
-} else if(age < 18 && registerNumber >= 1001) {
-    console.log(`Age : ${age}`);
-    console.log(`Register Number : ${registerNumber}`);
-    console.log(`Race start 12.30 AM`);
-} else {
-    console.log(`Report to registration desk`);
+if (age === 20 && status === true) {
+    raceNumber += 1000;
 }
 
+if (age > 18 && status === true) {
+    console.log(`Race number : ${raceNumber} start 9:30am`);
+} else if (age > 18 && status === false) {
+    console.log(`Race number : ${raceNumber} start 11:30am`);
+} else if (age < 18) {
+    console.log(`Race number : ${raceNumber} start 12:30am`);
+} else {
+    console.log(`Telling runner to see registration desk`);
+}
