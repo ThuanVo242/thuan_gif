@@ -25,7 +25,7 @@ switch(randomNumber) {
          eightBall = 'She is Software Engineer in Amazon!';
          break;
       case 4: 
-         eightBall = 'No.She is Project Manager!';
+         eightBall = 'No.@he is Project Manager!';
          break;
       case 5:
          eightBall = 'No.She is DevOp!';
